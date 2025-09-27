@@ -1,0 +1,12 @@
+==========INPUT OUTPUT==========
+#membuat variabel yang dapat dinput
+a = input("masukan input")
+
+#untuk menampilkan hasil dari input
+print(a)
+
+#contoh penerapannya
+nama = input("masukan nama anda:")                =>input
+masukan nama anda: Nayla Nabila Hafadhohal Matin
+print("Hallo", nama)
+Hallo, Nayla Nabila Hafadhohal Matin              =>hasil output
