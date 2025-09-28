@@ -1,3 +1,23 @@
+==========OPERASI DASAR PADA PYTHON==========
+#memasukan nilai pada setiap variabel (input)
+a = 36
+b = 6
+
+#menampilan  output dari beberapa variable ke objek (layar)
+print(a+b)   #penjumlahan
+print(a-b)   #pengurangan
+print(a*b)   #perkalian
+print(a/b)   #pembagian (hasil bil.desimal)
+print(a//b)  #pembagian (hasil bil.bulat)
+print(a%b)   #modulo (sisa dari operasi pembagian)
+print(a**b)  #pangkat
+
+#contoh penerapannya
+a = 36        =>input
+b = 6         =>input
+print(a+b)    =>mencetak output ke objek
+42            =>hasil output
+
 ==========VARIABEL DAN TIPE DATA==========
 #Variabel adalah wadah untuk menyimpan suatu nilai data pada program, seperti
 x = 10        #integer, hanya untuk bilangan bulat seperti 10
