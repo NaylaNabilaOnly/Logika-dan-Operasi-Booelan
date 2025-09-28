@@ -1,0 +1,20 @@
+p = True
+q = False
+#Ada 4 negasi yang di gunakan yaitu AND, OR, NOT dan XOR
+print("p AND q =", p and q)
+print("p OR q =", p or q)
+print("NOT p =", not p)
+print("p XOR q =", p ^ q)
+
+==========TABEL KEBENARAN==========
+p = True
+q = False
+
+print("p =", True, ",q =", True, "=> p AND q=", True and True)
+p = True , q = True => p AND q = True
+print("p =", True, ",q =", False, "=> p AND q=", True and False)
+p = True , q = False => p AND q = False
+print("p =", False, ",q =", True, "=> p AND q=", False and True)
+p = False , q = True => p AND q = False
+print("p =", False, ",q =", False, "=> p AND q=", False and False)
+p = False , q = False => p AND q = False
