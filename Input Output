@@ -1,3 +1,13 @@
+==========VARIABEL DAN TIPE DATA==========
+#Variabel adalah wadah untuk menyimpan suatu nilai data pada program, seperti
+x = 10        #integer, hanya untuk bilangan bulat seperti 10
+y = 3.14      #float, hanya untuk bilangan desimal seperti 3.14
+
+#Tipe data
+name = "budi"  #string, menyatakan karakter atau kalimat (diapit tanda " atau ')
+Flag = True    #Booelan, menyatakan benar True yang bernilai 1
+Flag = false   #Booelan, menyatakan salah False yang bernilai 0
+
 ==========INPUT OUTPUT==========
 #membuat variabel yang dapat dinput
 a = input("masukan input")
