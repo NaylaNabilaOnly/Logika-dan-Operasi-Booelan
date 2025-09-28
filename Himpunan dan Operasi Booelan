@@ -1,0 +1,28 @@
+==========HIMPUNAN DAN OPERASI BOOELAN==========
+#Operasi Dasar
+print("A U B =", A | B)    #Union/gabungan
+print("A n B =", A & B)    #Intersection/irisan
+print("A - B =", A - B)    #Difference/selisih
+print("A O B =", A ^ B)    #Syemmetric Difference/perbedaan simetris
+
+#Contoh penerapannya
+A = {1, 2, 3, 4}          #Himpunan A dan Himpunan B
+B = {3, 4, 5, 6}
+>>> print("A U B =", A | B)
+A U B = {1, 2, 3, 4, 5, 6}
+>>>print("A n B =", A & B) 
+A n B = {3, 4}
+>>> print("A - B =", A - B) 
+A - B = {1, 2}
+>>> print("A O B =", A ^ B) 
+A O B = {1, 2, 5, 6}
+
+#Kompelen Himpunan
+S = {1, 2, 3, 4, 5, 6}
+print("komplemen A=", S - A)
+
+#Hubungan dengan Aljabar Boolean
+AND <-> Intersection
+OR <-> Union
+NOT <->Complement
+
