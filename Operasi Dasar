@@ -15,3 +15,7 @@ A n B = {3, 4}
 A - B = {1, 2}
 >>> print("A O B =", A ^ B) 
 A O B = {1, 2, 5, 6}
+
+#Kompelen Himpunan
+S = {1, 2, 3, 4, 5, 6}
+print("komplemen A=", S - A)
